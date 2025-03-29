@@ -451,6 +451,3 @@ with st.expander("More detailed explanation"):
 
         This sinc interpolation mechanism is the theoretical basis that guarantees, in theory, that we can recover a continuous signal from its samples, provided that the signal is band-limited and the sampling frequency respects the Shannon-Nyquist condition. Sample and hold, although less accurate, is a common and computationally efficient reconstruction method.
     """)
-
-#%% Github link to the projet
-st.markdown("[Look at the full code](https://github.com/theau-pauwels/BA3_Projet-iDSP)")
